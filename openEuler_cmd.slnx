@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="openEuler_cmd_core/openEuler_cmd_core.vcxproj" Id="66296b0c-4434-43a4-a452-4edcfa48be57" />
+  <Project Path="openEuler_cmd_window/openEuler_cmd_window.vcxproj" Id="9972a673-352c-4998-abb7-816b66cbcce1" />
+</Solution>
