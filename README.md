@@ -2,17 +2,19 @@
 
 > An openEuler-compatible filesystem command interface for Windows operating systems.
 
+[English](./README.md) | [中文](./README_zh.md)
+
 ![GitHub stars](https://img.shields.io/github/stars/killerwy/openEuler_cmd?style=for-the-badge&logo=github) ![GitHub forks](https://img.shields.io/github/forks/killerwy/openEuler_cmd?style=for-the-badge&logo=github) ![GitHub issues](https://img.shields.io/github/issues/killerwy/openEuler_cmd?style=for-the-badge&logo=github) ![Last commit](https://img.shields.io/github/last-commit/killerwy/openEuler_cmd?style=for-the-badge&logo=github) ![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
 
 ## 📑 Table of Contents
 
-- [Description](#description)
-- [Key Features](#key-features)
-- [Use Cases](#use-cases)
-- [Quick Start](#quick-start)
-- [Project Structure](#project-structure)
-- [Command List](#command-list)
-- [License](#license)
+- [Description](#-description)
+- [Key Features](#-key-features)
+- [Use Cases](#-use-cases)
+- [Quick Start](#-quick-start)
+- [Project Structure](#-project-structure)
+- [Command List](#-command-list)
+- [License](#-license)
 
 ## 📝 Description
 
