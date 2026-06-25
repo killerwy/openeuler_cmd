@@ -17,6 +17,7 @@
 - [Description](#-description)
 - [Key Features](#-key-features)
 - [Use Cases](#-use-cases)
+- [Tech Stack](#-tech-stack)
 - [Quick Start](#-quick-start)
 - [Project Structure](#-project-structure)
 - [Command List](#-command-list)
@@ -39,6 +40,11 @@ The project is organized into modular components, separating its functional core
 - Developers working on Windows who need to write and test scripts containing openEuler-compatible filesystem operations.
 - System administrators looking to maintain command-line tool consistency when transitioning between Windows environments and openEuler servers.
 
+## 🔧 Tech Stack
+
+- Programming Languages: C, C++
+- Libraries & APIs: Standard C Library, C++ STL, Win32 Native API
+
 ## ⚡ Quick Start
 
 1. Clone the repository
@@ -57,11 +63,10 @@ cd openEuler_cmd
 ## 📁 Project Structure
 
 ```
-.
 openEuler_cmd/
 ├── openEuler_cmd_core/          # Core module: Implements openEuler commands & Windows API integration
 │   ├── openEuler_cmd_core.h     # Core header: Data structures, error codes, function declarations
-│   ├── openEuler_cmd_core.c     # Core source: ls/cat/cp/rm/mv/mkdir/rmdir/cd/find implementation
+│   ├── openEuler_cmd_core.c     # Core source: openEuler commands implementation
 │   ├── openEuler_cmd_core.vcxproj          # Core module VS project config
 │   └── openEuler_cmd_core.vcxproj.filters  # Core module VS project filters
 │
@@ -71,11 +76,14 @@ openEuler_cmd/
 │   └── openEuler_cmd_window.vcxproj.filters  # UI module VS project filters
 │
 ├── openEuler_cmd.slnx           # VS solution: Manages core & window sub-projects
-└── README.md                    # Project docs: Features, environment, usage
+├── README.md                    # English project documentation
+├── README_zh.md                 # Chinese project documentation
+├── LICENSE                      # Open-source license file for the project
+└── .gitignore                   # Git version control ignore configuration file
 ```
 
 ## 🖥 Command List
-# openEuler Compatible Command Line - Command Reference
+### openEuler Compatible Command Line - Command Reference
 | Command | Core Function | Supported Options | Option Description |
 |---------|---------------|-------------------|--------------------|
 | ls      | List directory contents (files and subdirectories) | -a | Display all items, including hidden files (starting with `.`) |
